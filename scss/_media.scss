@@ -1,0 +1,366 @@
+@media (max-width: 1440px) {
+    .logo {
+        img {
+            width: 100px;
+        }
+    }
+
+    .holder-slider_descr {
+        padding: 0 25px;
+        background-size: contain;
+    }
+    .surfboard-img {
+        height: 500px;
+    }
+
+    .header_title {
+        top: 30px;
+        left: 64px;
+        font-size: 130px;
+        line-height: 85px;
+    }
+
+    .menu {
+        padding-top: 10px;
+        a {
+            span {
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    .header_search {
+        padding: 0px;
+    }
+
+    .header_date {
+        line-height: 28px;
+        font-size: 30px;
+        span {
+            font-size: 14px;
+            padding-top: 0;
+            margin-bottom: 0px;
+        }
+    }
+
+    .header-arrows {
+        left: 130px;
+    }
+
+    .surf-box_inner {
+        min-height: 85vh;
+        &_title {
+            padding-top: 20px;
+        }
+    }
+
+    .holder-slider_subtitle {
+        padding: 5vh;
+    }
+
+    .holder .slider-arrows {
+        top: 130px;
+    }
+
+    .holder-slider_head {
+        min-height: 100vh;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    .shop_slider-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .surfboard {
+        height: 500px;
+    }
+
+    .shop_slider-info {
+        margin-right: 0;
+    }
+
+    .header-aside {
+        height: 110px;
+        display: flex;
+        border-right: none;
+        text-align: left;
+        background: rgba(255, 255, 255, 0.11);
+        padding-right: 15px;
+    }
+
+    .header-arrows {
+        left: 30px;
+        bottom: 30px;
+    }
+
+    .menu {
+        padding-top: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 22;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transform: translateX(-100%);
+        background: #000;
+        transition: 1s;
+        &.active {
+            transform: translateX(0);
+        }
+    }
+
+    .menu_list {
+        padding-top: 0;
+        text-align: center;
+        li {
+            display: inline-block;
+        }
+        a {
+            padding: 15px;
+        }
+    }
+
+    .slider-item_info {
+        bottom: 80px;
+        right: 50px;
+        &-title {
+            margin-bottom: 8px;
+        }
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .header_map {
+        svg {
+            height: 300px;
+            width: 500px;
+        }
+    }
+
+    .header_date {
+        padding: 30px 15px;
+    }
+
+    .header_search {
+        padding: 40px 15px;
+    }
+
+    .header_location {
+        margin-top: 40px;
+    }
+
+
+    .surf-box_inner_title {
+        padding-left: 88px;
+    }
+
+    .holder-slider_info-title {
+        font-size: 20px;
+        line-height: 24px;
+        .holder-pricing_span {
+            font-size: 10px;
+            line-height: 12px;
+        }
+    }
+
+    .holder-slider_info-subtitle {
+        font-size: 12px;
+    }
+
+    .surfbord {
+        height: 500px;
+    }
+
+    .surfbord-box_position-3 {
+        bottom: 42px;
+        left: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .holder-slider_descr {
+        padding: 0 25px;
+        background-size: contain;
+    }
+
+    .shop_slider-inner {
+        flex-direction: column-reverse;
+
+    }
+
+    .surfbord {
+        height: auto;
+    }
+
+    .surf-box_inner_title {
+        font-size: 22px;
+    }
+
+    .btn {
+        font-size: 18px;
+        line-height: 15px;
+    }
+
+    .header_title {
+        top: 37px;
+        left: 109px;
+        font-size: 64px;
+        line-height: 23px;
+    }
+
+    .slider-item_info-title {
+        font-weight: 800;
+        font-size: 41px;
+        line-height: 24px;
+        margin-bottom: 34px;
+    }
+
+    .slider-item_info-text {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 10px;
+        margin-bottom: 20px;
+    }
+
+    .headline-left {
+        font-size: 16px;
+    }
+
+
+    .holder {
+        padding-bottom: 321px;
+    }
+
+    .header-arrows {
+        left: 60px;
+    }
+
+    .dots-box_name {
+        line-height: 13px;
+    }
+
+    .surf-box_inner_location {
+        font-size: 11px;
+    }
+    .dots-box_number {
+        font-weight: 400;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 670px) {
+    .holder-slider_info-subtitle {
+        font-size: 12px;
+        position: static;
+        letter-spacing: normal;
+        transform: none;
+        width: auto;
+    }
+
+    .header-arrows {
+        display: none;
+    }
+
+    .slider-arrows_left, .slider-arrows_right {
+        top: 45vh;
+    }
+
+    .shop_slider-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .title {
+        h3{
+            margin-top: 40px;
+            position: absolute;
+            top: -100px;
+            left: 115px;
+            color: #fff;
+            font-size: 80px;
+            right: auto;
+        }
+        span {
+            font-size: 0px;
+        }
+    }
+
+    .surf_subtitle {
+        margin-top: 40px;
+    }
+    
+}
+
+.surfboard {
+    height: 60vw;
+}
+
+.surfbord-box_circle {
+    display: none;
+}
+
+.header_map {
+    svg {
+        height: 300px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-aside {
+        display: block;
+        height: 100vh;
+        padding: 0 0 20px 0;
+    }
+    .header_search {
+        padding: 20px 33px;
+    }
+    .header_date {
+        padding: 0;
+        text-align: center;
+    }
+    .header_location {
+        margin: 0 10px;
+    }
+
+    .slider-dots {
+        display: none;
+    }
+    .holder-slider_info-title {
+        font-size: 16px;
+    }
+    .holder .slider-arrows {
+        top: 190px;
+    }
+
+    
+
+}
+
+@media (max-height: 530px) {
+    .slider-arrows_left, .slider-arrows_right {
+        top: auto;
+        bottom: 50px;
+    }
+
+    .slider-dots {
+        display: none;
+    }
+
+    .header_map {
+        svg {
+            height: 250px;
+            width: 300px;
+        }
+    }
+}
